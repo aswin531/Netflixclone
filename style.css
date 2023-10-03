@@ -1,0 +1,221 @@
+*{
+    margin:0;
+    padding: 0;;
+}
+body{
+    background-color: #000;
+    color: #fff;
+}
+.header {
+    width: 100%;
+    height: 100vh;
+    /* Check the path and file extension of the image */
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(images/netflix.jpg);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    border-bottom:8px solid grey  ;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 150px;
+    padding-right: 150px;
+}
+.logo{
+    width: 200px;
+    cursor: pointer;
+  
+  
+    /* position: fixed; */
+}
+nav button{
+    color: #fff;
+    background-color:rgb(229, 9, 20);
+    font-size: 16px;
+    border-radius: 5px;
+    padding: 8px 20px 8px 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.bt1{
+    
+    
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    color: #fff;
+    padding: 8px 23px 8px 23px;
+    background-color:rgb(229, 9, 20);
+    font-size: 16px;
+    border-radius: 5px;
+    
+   
+}
+
+.img1{
+    width: 15px;
+    height: 15px;
+    margin-left:5px;
+}
+.btn-lang{
+    size: 0cap;
+    display: inline-flex;
+    align-items: center;
+    background: transparent;
+    border: 1px solid;
+}
+.container{
+    position: absolute;
+    top:35%;
+    left:15%;
+    text-align: center;
+    margin-top: 50px;
+}    
+.container h1{
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 600;
+}
+.container h2{
+    font-weight: 400;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Netflix Sans,Helvetica Neue;
+}
+.container h4{
+    font-family: sans-serif;
+    font-size: 20px;
+}
+.sign-up{
+    margin-top: 20px;
+}
+.sign-up input{
+    padding: 15px 70px;
+    margin-left: 5px;
+    background: transparent;
+    font-size: 20px;
+}
+.sign-up img{
+    width:20px;
+    height: 20px;
+}
+.sign-up button{
+    background-color: rgb(229, 9, 20);  
+    color:#fff;
+    font-size: 23px;
+    font-family: sans-serif;
+    margin-left: 3px;
+    padding: 15px 40px;
+}
+.features{
+    padding: 50px 12%;
+    font-size: 22px;
+    /* border-bottom: 8px solid grey; */
+}   
+.row{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 50px;
+    border-bottom: 8px solid grey;
+}
+.col{
+    flex-basis: 50%;
+    margin-bottom: 20px;
+}
+.col-img{
+    flex-basis: 50%;
+    margin-bottom: 20px; 
+}
+.col-img img{
+    display: block;
+    width: 90%;
+    margin: auto;
+}
+ .features h1{
+    font-size: 45px;
+    font-weight: 600;
+    margin-bottom: 20px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+ }
+ .features p{
+    margin-top: 15px;
+    font-size: 23px;
+    font-weight: 600;
+ }
+ .qstns{
+    padding: 10px 12%;
+    text-align: center;
+    font-size: 35px;
+    font-family:  Netflix Sans,Helvetica Neue,Segoe UI,Roboto,Ubuntu,sans-serif;
+    margin-bottom: 10px;
+ }
+ .lists{
+    margin: 60px auto;
+    width: 100%;
+    max-width: 750px;
+    /* margin-left: 100px; */
+ }
+ .lists li{
+    list-style: none;
+    width: 100%;
+    padding: 8px;
+ }
+ .lists li label{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: 500;
+    background-color: rgb(45,45,45);
+    margin-bottom: 2px;
+    padding-right: 400px;
+    cursor: pointer;
+    position: relative;
+ }
+ label::after{
+    content: '+';
+    font-size: 54px;
+    position: absolute;
+    right: 20px;
+ }
+ input[type="radio"]{
+    display: none;
+ }
+ .qstns p{
+    font-size: 20px;
+ }
+ .footer{
+    margin-top: 50px;
+    padding: 50px 13% 10px;
+    border-top: 8px solid rgb(45,45,45);
+ }
+ .row1{
+    display: flex;
+    justify-content: space-between;
+ }
+ .col1{
+    margin-left: 10px;
+    padding: 50px;
+ }
+.footer a{
+    color: #fff;
+    align-items: center;
+}
+.btn-fin{
+    padding: 6px 20px 6px 20px;
+    color: #fff;
+    background: transparent;
+    border-radius :5px;
+    border: 1px solid #fff;
+}
+.img-trsl{
+    width: 20px;
+    height: 20px;
+}
+.Questions{
+    margin-left: 55px;
+}
